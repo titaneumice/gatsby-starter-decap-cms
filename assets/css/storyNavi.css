@@ -1,0 +1,150 @@
+@import "styles.css";
+.hFlex, #other, .navContainer, #mainContent, #siteBanner {
+  display: flex;
+  flex-direction: row;
+}
+
+.vFlex, #storyNav, #siteContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+p, div, a, body, li {
+  color: black;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+ul {
+  padding-left: 2ch;
+  list-style-type: none;
+}
+
+body {
+  background-image: url("/assets/img/bg001.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: underline;
+}
+
+iframe {
+  display: inline;
+}
+
+#siteContainer {
+  min-height: 100vh;
+}
+
+.banner {
+  padding: 0.5rem;
+}
+
+.container {
+  background-color: rgba(240, 248, 255, 0.8);
+  padding: 1rem;
+}
+
+/* SITE header, body, footer */
+#siteBanner {
+  background-color: rgb(88, 175, 221);
+  height: 2rem;
+  font-variant: small-caps;
+  font-size: 24px;
+}
+
+#mainContent {
+  height: 90vh;
+}
+
+#siteFooter {
+  font-size: 10px;
+  background-color: black;
+  color: rgb(171, 171, 171);
+  margin-top: auto;
+  height: 10px;
+}
+
+/* CENTER left, center, right */
+#storyNav {
+  width: 15vw;
+  margin: 1rem 1rem 1rem 0;
+  border-radius: 0 20px 20px 0;
+  padding-left: 0;
+}
+
+#centerCol {
+  width: 70vw;
+  margin: 0 1rem 0 1rem;
+  overflow: scroll;
+}
+
+#archiveCol {
+  width: 15vw;
+  margin: 1rem 0 1rem 1rem;
+  border-radius: 20px 0 0 20px;
+}
+
+/* for the navigation bar - baseline behavior */
+.navContainer {
+  flex-wrap: wrap;
+  overflow: scroll;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.storyItem {
+  flex: 2 1 26vw;
+  height: auto;
+  margin: 1ch 0 0 0;
+}
+
+#other {
+  flex-wrap: wrap;
+  flex: auto;
+}
+
+.snavItem {
+  flex: 1 1 26vw;
+  margin: 1ch 0 0 0;
+}
+
+.sname {
+  margin: 0 0 0 0;
+}
+
+h1 {
+  font-size: 17px;
+  font-stretch: 50%;
+}
+
+.snavLink {
+  color: rgb(13, 158, 139);
+  text-decoration: none;
+}
+
+#snavContainer {
+  border-bottom: 10px ridge rgb(88, 175, 221);
+  padding-left: 1rem;
+}
+
+#storyNav {
+  width: 85vw;
+  margin: 1rem 1rem 1rem 0;
+  border-radius: 0 20px 20px 0;
+}
+
+#other {
+  flex-wrap: wrap;
+  flex: auto;
+  width: 80vw;
+}
+
+.snavItem {
+  flex: 1 0 26vw;
+  margin: 1ch 0 0 0;
+}
+
+/*# sourceMappingURL=storyNavi.css.map */
