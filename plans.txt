@@ -1,0 +1,28 @@
+#####        Header        #####
+Story |  Feed/Variable  |  Archive
+Nav   |     Content     | (filters automatically)
+---------------------------------
+A filtered feed, on some pages
+#####        Footer        #####
+
+
+Main Page's primary content is an unfiltered feed.
+
+Archive page is posts sans content, ideally with thumbnails if images are available -
+    allowing it to be like a gallery. Idea: Images and text-only separated? Or option to sort like this.
+
+Story nav primary page. Wouldn't need feed or archive, so wouldn't follow default layout -
+    maybe could follow post format?
+
+
+
+Lists:
+
+Posts
+ - Pictures, content, date & time
+
+Story pages
+ - Characters
+    - Picture Gallery - Filtered Post feed, of course
+ - Other/Items/Terminology
+ - May have Map
